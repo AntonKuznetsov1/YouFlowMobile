@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(to bottom right, black, rgb(0, 4, 29), rgb(6, 6, 112), rgb(36, 138, 185));
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family: cursive;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 20px 60px 20px 60px;
+}
+.inputGroup{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+select{
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    border: 2px white solid;
+    color: white;
+    font-family: cursive;
+}
+select:active{
+    background-image:linear-gradient(to bottom right, black, rgb(0, 4, 29), rgba(6, 6, 112, 0.658), rgba(12, 55, 75, 0.685));
+    transform: scale(0.90);
+}
+select:hover{
+    background-image: linear-gradient(to bottom right, black, black, rgba(0, 0, 255, 0.637));
+    transform: scale(1.05); /* Slight pop effect */
+    transition: 0.3s;
+}
+button{
+    align-self: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    color:white;
+    background-color: black;
+    font-family: cursive;
+}
+button:hover{
+    background-image: linear-gradient(to bottom right, black, black, rgba(0, 0, 255, 0.637));
+    transform: scale(1.05); /* Slight pop effect */
+    transition: 0.3s;
+}
+button:active{
+    background-image:linear-gradient(to bottom right, black, rgb(0, 4, 29), rgba(6, 6, 112, 0.658), rgba(12, 55, 75, 0.685));
+    transform: scale(0.90);
+}
+p{
+    align-self: center;
+    font-size: 22px;
+}
+h1{
+    align-self: center;
+}
